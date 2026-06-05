@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python scripts/src/hello.py"
+restartPolicyType = "always"
